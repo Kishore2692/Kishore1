@@ -31,7 +31,7 @@ List<String> l = new ArrayList<String>(allId);
 
 driver.switchTo().window(l.get(1));
 System.out.println(l.get(1));
-driver.switchTo().defaultContent();
+//driver.switchTo().defaultContent();
 }
 
 }
